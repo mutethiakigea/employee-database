@@ -1,0 +1,28 @@
+CREATE TABLE employees (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  phone TEXT NOT NULL,
+  email TEXT NOT NULL,
+  po_box TEXT NOT NULL,
+  department TEXT NOT NULL
+);
+INSERT INTO employees (id, name, phone, email, po_box, department) VALUES
+  (1, 'John Smith', '555-555-5555', 'john@example.com', '123 Main St', 'store'),
+  (2, 'Jane Doe', '555-555-5556', 'jane@example.com', '456 Main St', 'accounting'),
+  (3, 'Bob Johnson', '555-555-5557', 'bob@example.com', '789 Main St', 'finance'),
+  (4, 'Alice Williams', '555-555-5558', 'alice@example.com', '321 Main St', 'store'),
+  (5, 'Frank Thompson', '555-555-5559', 'frank@example.com', '654 Main St', 'accounting'),
+  (6, 'Sue Jenkins', '555-555-5560', 'sue@example.com', '987 Main St', 'finance'),
+  (7, 'Mike Davis', '555-555-5561', 'mike@example.com', '246 Main St', 'store'),
+  (8, 'Laura Rodriguez', '555-555-5562', 'laura@example.com', '369 Main St', 'accounting'),
+  (9, 'Steve Brown', '555-555-5563', 'steve@example.com', '159 Main St', 'finance'),
+  (10, 'Kate Wilson', '555-555-5564', 'kate@example.com', '753 Main St', 'store'),
+  (11, 'Tom Johnson', '555-555-5565', 'tom@example.com', '951 Main St', 'accounting'),
+  (12, 'Sarah Smith', '555-555-5566', 'sarah@example.com', '147 Main St', 'finance'),
+  (13, 'Chris Williams', '555-555-5567', 'chris@example.com', '753 Main St', 'store'),
+  (14, 'Kimberly Davis', '555-555-5568', 'kimberly@example.com', '369 Main St', 'accounting'),
+  (15, 'David Rodriguez', '555-555-5569', 'david@example.com', '159 Main St', 'finance'),
+  (16, 'Michael Brown', '555-555-5570', 'michael@example.com', '246 Main St', 'store'),
+  (17, 'Jessica Wilson', '555-555-5571', 'jessica@example.com', '987 Main St', 'accounting'),
+  (18, 'Brian Thompson', '555-555-5572', 'brian@example.com', '321 Main St', 'finance'),
+  (19, 'Ashley Jenkins', '555-555-5573', 'ashley@example.com', '654 Main St', 'store'),
